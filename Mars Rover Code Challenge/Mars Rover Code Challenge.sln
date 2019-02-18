@@ -3,18 +3,58 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mars Rover Code Challenge", "Mars Rover Code Challenge\Mars Rover Code Challenge.csproj", "{1A2149CC-FB64-48A6-8931-11345BED58DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mars Rover Code Challenge", "Mars Rover Code Challenge\Mars Rover Code Challenge.csproj", "{1A2149CC-FB64-48A6-8931-11345BED58DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1A2149CC-FB64-48A6-8931-11345BED58DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1A2149CC-FB64-48A6-8931-11345BED58DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2149CC-FB64-48A6-8931-11345BED58DD}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{1A2149CC-FB64-48A6-8931-11345BED58DD}.Debug|ARM.Build.0 = Debug|Any CPU
+		{1A2149CC-FB64-48A6-8931-11345BED58DD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1A2149CC-FB64-48A6-8931-11345BED58DD}.Debug|x64.Build.0 = Debug|Any CPU
+		{1A2149CC-FB64-48A6-8931-11345BED58DD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1A2149CC-FB64-48A6-8931-11345BED58DD}.Debug|x86.Build.0 = Debug|Any CPU
 		{1A2149CC-FB64-48A6-8931-11345BED58DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A2149CC-FB64-48A6-8931-11345BED58DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A2149CC-FB64-48A6-8931-11345BED58DD}.Release|ARM.ActiveCfg = Release|Any CPU
+		{1A2149CC-FB64-48A6-8931-11345BED58DD}.Release|ARM.Build.0 = Release|Any CPU
+		{1A2149CC-FB64-48A6-8931-11345BED58DD}.Release|x64.ActiveCfg = Release|Any CPU
+		{1A2149CC-FB64-48A6-8931-11345BED58DD}.Release|x64.Build.0 = Release|Any CPU
+		{1A2149CC-FB64-48A6-8931-11345BED58DD}.Release|x86.ActiveCfg = Release|Any CPU
+		{1A2149CC-FB64-48A6-8931-11345BED58DD}.Release|x86.Build.0 = Release|Any CPU
+		{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}.Debug|ARM.ActiveCfg = Debug|ARM
+		{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}.Debug|ARM.Build.0 = Debug|ARM
+		{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}.Debug|ARM.Deploy.0 = Debug|ARM
+		{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}.Debug|x64.ActiveCfg = Debug|x64
+		{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}.Debug|x64.Build.0 = Debug|x64
+		{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}.Debug|x64.Deploy.0 = Debug|x64
+		{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}.Debug|x86.ActiveCfg = Debug|x86
+		{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}.Debug|x86.Build.0 = Debug|x86
+		{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}.Debug|x86.Deploy.0 = Debug|x86
+		{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}.Release|Any CPU.ActiveCfg = Release|x86
+		{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}.Release|ARM.ActiveCfg = Release|ARM
+		{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}.Release|ARM.Build.0 = Release|ARM
+		{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}.Release|ARM.Deploy.0 = Release|ARM
+		{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}.Release|x64.ActiveCfg = Release|x64
+		{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}.Release|x64.Build.0 = Release|x64
+		{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}.Release|x64.Deploy.0 = Release|x64
+		{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}.Release|x86.ActiveCfg = Release|x86
+		{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}.Release|x86.Build.0 = Release|x86
+		{A6F4FBFA-2F15-4C09-B833-C99E24309CBF}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
